@@ -44,3 +44,6 @@
 *.bz2 binary
 *.7z binary
 *.zip binary
+
+*linguist-vendored
+*.php linguist-vendored=false
