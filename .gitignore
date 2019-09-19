@@ -1,0 +1,13 @@
+# Created by https://www.gitignore.io/api/cakephp3
+# Edit at https://www.gitignore.io/?templates=cakephp3
+
+### CakePHP3 ###
+# CakePHP 3
+
+/config/app.php
+/config/.env
+/logs/*
+/tmp/*
+/vendor/*
+
+# End of https://www.gitignore.io/api/cakephp3

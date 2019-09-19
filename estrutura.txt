@@ -1,0 +1,50 @@
+A fim de realizar nivelamento de usuarios, neste primeiro momento do sistema foram criados 3 niveis de acesso sendo:
+- Admin: Nivel maximo do sistema, possui acesso a todos os modulos
+- Manager: Nivel intermediario do sistema, possui acesso ao PDV e alguns modulos extras
+- Seller: Nivel basico do sistema, possui acesso apenas ao PDV e ao que ele oferece
+
+Cada nivel deste possui um template especifico, assim o controle fica um pouco amarrado, mas mais facil de realizar manutencao
+
+Estrutura de Arquivos do Sistema
+================================
+1. Usuarios
+	- Controller/UsersController
+	- Template/Users
+		
+2. Sistema
+	- Controller/SystemController
+	- Template/System
+		
+3. Vendas
+	- Controller/RetailController
+	- Template/Retail
+		
+4. Fianceiro
+	- Controller/FinancialController
+	- Template/Financial
+		
+5. Recursos Humanos
+	- Controller/HrController
+	- Template/Hr
+		
+6. Estoque
+	- Controller/StockController
+	- Template/Stock
+		
+7. Relatórios
+	- Controller/ReportController
+	- Template/Report
+		
+8. Fiscal
+	- Controller/TributaryController
+	- Template/Tributary
+		
+9. Custos
+	- Controller/CostController
+	- Template/Cost
+		
+10. Galeria de Arquivos
+	- Controller/GaleryController
+	- Template/Galery
+		
+
